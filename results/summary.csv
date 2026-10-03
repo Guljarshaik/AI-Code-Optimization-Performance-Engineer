@@ -1,0 +1,16 @@
+benchmark,config,mean_final_fitness,std_final_fitness,mean_correctness,mean_performance,mean_maintainability,mean_security,mean_wall_time_s,mean_llm_calls,n_seeds
+fibonacci,GA-only,0.8299,0.0119,1.0,0.5495,0.4667,1.0,0.088,0,5
+fibonacci,Semantic-only,0.8227,0.0048,1.0,0.5041,0.4792,1.0,0.0106,15,5
+fibonacci,Hybrid,0.8244,0.0082,1.0,0.522,0.4667,1.0,0.0901,61,5
+is_prime,GA-only,0.8195,0.0124,1.0,0.5418,0.4074,1.0,0.2153,0,5
+is_prime,Semantic-only,0.8236,0.0097,1.0,0.5529,0.4201,1.0,0.0232,15,5
+is_prime,Hybrid,0.8168,0.0073,1.0,0.5188,0.4201,1.0,0.2453,61,5
+has_duplicates,GA-only,0.8205,0.0098,1.0,0.5714,0.375,1.0,0.088,0,5
+has_duplicates,Semantic-only,0.8741,0.0077,1.0,0.7618,0.4783,1.0,0.0055,15,5
+has_duplicates,Hybrid,0.8815,0.0182,1.0,0.7989,0.4783,1.0,0.0643,61,5
+contains_sorted,GA-only,0.8284,0.0166,1.0,0.592,0.4,1.0,0.0463,0,5
+contains_sorted,Semantic-only,0.8272,0.0028,1.0,0.5461,0.4533,1.0,0.0054,15,5
+contains_sorted,Hybrid,0.8326,0.0023,1.0,0.5629,0.4667,1.0,0.0593,61,5
+concat_strings,GA-only,0.8459,0.0216,1.0,0.6293,0.4667,1.0,0.0334,0,5
+concat_strings,Semantic-only,0.8827,0.0078,1.0,0.7135,0.6,1.0,0.0025,15,5
+concat_strings,Hybrid,0.8954,0.0086,1.0,0.7768,0.6,1.0,0.0274,61,5

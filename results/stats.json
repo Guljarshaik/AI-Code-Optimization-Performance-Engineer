@@ -1,0 +1,90 @@
+{
+  "per_benchmark": [
+    {
+      "benchmark": "fibonacci",
+      "comparison": "Hybrid vs GA-only",
+      "mean_diff": -0.0054860000000000134,
+      "t": -1.432360023837901,
+      "p": 0.2253133092380381
+    },
+    {
+      "benchmark": "fibonacci",
+      "comparison": "Hybrid vs Semantic-only",
+      "mean_diff": 0.001695000000000002,
+      "t": 0.31101488367719377,
+      "p": 0.7713232037613914
+    },
+    {
+      "benchmark": "is_prime",
+      "comparison": "Hybrid vs GA-only",
+      "mean_diff": -0.0027055999999999747,
+      "t": -0.4253167003798741,
+      "p": 0.6924894846721047
+    },
+    {
+      "benchmark": "is_prime",
+      "comparison": "Hybrid vs Semantic-only",
+      "mean_diff": -0.006820199999999987,
+      "t": -1.0484869661487481,
+      "p": 0.3535855419965415
+    },
+    {
+      "benchmark": "has_duplicates",
+      "comparison": "Hybrid vs GA-only",
+      "mean_diff": 0.06099379999999999,
+      "t": 8.12518045445423,
+      "p": 0.0012479245480502622
+    },
+    {
+      "benchmark": "has_duplicates",
+      "comparison": "Hybrid vs Semantic-only",
+      "mean_diff": 0.0074297999999999535,
+      "t": 0.7484499213841648,
+      "p": 0.49579664314914423
+    },
+    {
+      "benchmark": "contains_sorted",
+      "comparison": "Hybrid vs GA-only",
+      "mean_diff": 0.004181800000000013,
+      "t": 0.535041876929371,
+      "p": 0.6209805176170671
+    },
+    {
+      "benchmark": "contains_sorted",
+      "comparison": "Hybrid vs Semantic-only",
+      "mean_diff": 0.005358599999999991,
+      "t": 7.098400899944724,
+      "p": 0.002080304169186456
+    },
+    {
+      "benchmark": "concat_strings",
+      "comparison": "Hybrid vs GA-only",
+      "mean_diff": 0.04950260000000002,
+      "t": 3.872603751909745,
+      "p": 0.01795370388711892
+    },
+    {
+      "benchmark": "concat_strings",
+      "comparison": "Hybrid vs Semantic-only",
+      "mean_diff": 0.012650600000000001,
+      "t": 11.594146154326804,
+      "p": 0.0003161978550376285
+    }
+  ],
+  "pooled": [
+    {
+      "comparison": "Hybrid vs GA-only",
+      "mean_diff": 0.021297320000000005,
+      "t": 3.2041224718177617,
+      "p": 0.0038025399211687036,
+      "n": 25
+    },
+    {
+      "comparison": "Hybrid vs Semantic-only",
+      "mean_diff": 0.004062759999999992,
+      "t": 1.4834409180466086,
+      "p": 0.15097192043867283,
+      "n": 25
+    }
+  ]
+}

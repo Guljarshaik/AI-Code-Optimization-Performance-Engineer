@@ -1,0 +1,14 @@
+# Core implementation (genome, sandbox, fitness, genetic_engine, orchestrator,
+# semantic_rules) uses only the Python standard library. demo.py needs nothing
+# extra and runs with no API key.
+#
+# Needed to reproduce Table VI (paired significance tests):
+scipy>=1.10.0
+
+# Needed only if you wire in the real Anthropic backend (README "Wiring in a
+# real LLM"):
+anthropic>=0.34.0
+
+# Optional, for running the unit tests via `pytest` instead of the manual
+# fallback runner built into test_hybrid_optimizer.py:
+pytest>=7.0.0
